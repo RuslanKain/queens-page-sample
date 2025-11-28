@@ -19,12 +19,62 @@
       <!-- ====== PHOTO (upload me.jpg to repo root, then update src) ====== -->
       <img src="me.jpg" alt="Your Name portrait" width="240" height="240" />
 
+      <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>My Queen’s Student Page</title>
+    <link rel="stylesheet" href="style.css"/> <!-- do not change this line -->
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Page</h1> <!-- change this heading to your name -->
+    </header>
+
+    <main>
+      <!-- ====== ABOUT SECTION (edit the text) ====== -->
+      <h2>About Me</h2>
+      <p>I am a student at Queen’s School of Computing. I’m interested in <!-- replace with interests -->.</p>
+
+      <!-- ====== PHOTO (upload me.jpg to repo root, then update src) ====== -->
+      <img src="me.jpg" alt="Your Name portrait" width="240" height="240" />
+
       <!-- ====== PROJECTS (add or rename items) ====== -->
       <h2>Projects</h2>
       <ul>
         <li>Project One — one sentence description.</li>
         <li>Project Two — coming soon.</li>
       </ul>
+
+      <!-- ====== HF SPACES / GRADIO EMBED (added) ====== -->
+      <h2>Live Demo (HF Spaces)</h2>
+      <!-- Load Gradio's client library then embed the Space. The script is a module and must load before the <gradio-app> element. -->
+      <script
+        type="module"
+        src="https://gradio.s3-us-west-2.amazonaws.com/6.0.1/gradio.js"
+      ></script>
+
+      <!-- Replace the src below with your Space URL if needed.
+           The style attribute below helps keep the embed responsive on the sample page.
+      -->
+      <gradio-app
+        src="https://ruslankain-sorting-searching-recognized-gestures.hf.space"
+        style="width:100%; max-width:900px; height:700px; border:0; display:block;"
+      ></gradio-app>
+
+      <noscript>
+        The interactive demo requires JavaScript. You can open it directly:
+        <a href="https://ruslankain-sorting-searching-recognized-gestures.hf.space" target="_blank" rel="noopener">Open HF Space</a>
+      </noscript>
+
+      <!-- ====== CONTACT (update your links) ====== -->
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:student@queensu.ca">student@queensu.ca</a></p>
+      <p>LinkedIn: <a href="#">add your link here</a></p>
+    </main>
+  </body>
+</html>
 
       <!-- ====== CONTACT (update your links) ====== -->
       <h2>Contact</h2>
