@@ -1,6 +1,6 @@
 # Queen's Student Page Sample
 
-A sample repository for **CISC 121's Week 2 Homework** - launching your own Queen's School of Computing student webpage using GitHub Pages and completing peer code review.
+A sample repository for **CISC 121's Homework 2** - launching your own Queen's School of Computing student webpage using GitHub Pages and completing peer code review.
 
 ## Overview
 
